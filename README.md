@@ -6,7 +6,7 @@ API Documentation
 URL: http://feed-demo.linkwellhealth.com/rest/views/site_feeds.json
 
 JSON: 
-`<code>`
+`
    {  
       "id":"629",
       "uuid":"9b07823f-6607-492a-8029-68bd76abf46b",
@@ -31,9 +31,10 @@ suscipit valetudo. Caecus genitus magna paulatim praemitto sino. Acsi ad causa c
       "updated":"2015-05-19  15:42:40",
       "created":"2015-05-19  05:32:07"
    }
-`</code>`
+`
 
 XML:
+`
 <item>
 	<id>628</id>
 	<uuid>de254bdb-42dd-49a1-83c5-bd5bd490ab00</uuid>
@@ -58,6 +59,7 @@ XML:
 	<updated>2015-05-19 15:42:40</updated>
 	<created>2015-05-19 13:39:41</created>
 </item>
+`
 
 Field/Key Values:
 
