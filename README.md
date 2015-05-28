@@ -69,14 +69,14 @@ URL: http://feed-demo.linkwellhealth.com/rest/views/site_feeds.xml
 Fields  | Type | Description
 -------------|---| -------------
 id  | int | Unique id of the piece of content
-uuid  | | Universally Unique ID
-type  | | Content Type
-title  | | Title of the piece of content
-dek  | | Short brief or teaser for the piece of content
-body  | | Body field of piece of content - HTML
-category  | | Tag or category that relates the content.  Can have multiple categories.
-updated  | | Timestamp of the last edit to the piece of content*
-created  | | Timestamp of the initial creation of the piece of content*
+uuid  | String | Universally Unique ID
+type  | String | Content Type
+title  | String| Title of the piece of content
+dek  | String| Short brief or teaser for the piece of content
+body  | String/HTML| Body field of piece of content - HTML
+category  | Object| Tag or category that relates the content.  Can have multiple categories.
+updated  | String| Timestamp of the last edit to the piece of content*
+created  | String| Timestamp of the initial creation of the piece of content*
 
 * This will change to POSIX time ie. 1432419028
 
