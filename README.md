@@ -67,8 +67,8 @@ URL: http://feed-demo.linkwellhealth.com/rest/views/site_feeds.xml
 ### Fields
 
 Fields  | Type | Description
-------------- | -------------
-id  | | Unique id of the piece of content
+-------------|---| -------------
+id  | int | Unique id of the piece of content
 uuid  | | Universally Unique ID
 type  | | Content Type
 title  | | Title of the piece of content
