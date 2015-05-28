@@ -2,9 +2,10 @@
 
 ## v.01 - 5-27-2015
 
+###JSON: 
+
 URL: http://feed-demo.linkwellhealth.com/rest/views/site_feeds.json
 
-##JSON: 
 ```
    {  
       "id":"629",
@@ -32,7 +33,10 @@ suscipit valetudo. Caecus genitus magna paulatim praemitto sino. Acsi ad causa c
    }
 ```
 
-##XML:
+###XML:
+
+URL: http://feed-demo.linkwellhealth.com/rest/views/site_feeds.xml
+
 ```
 <item>
 	<id>628</id>
@@ -60,7 +64,7 @@ suscipit valetudo. Caecus genitus magna paulatim praemitto sino. Acsi ad causa c
 </item>
 ```
 
-##Field/Key Values:
+###Field/Key Values:
 
 1. id: Unique id of the piece of content
 2. uuid: Universally Unique ID
@@ -71,3 +75,6 @@ suscipit valetudo. Caecus genitus magna paulatim praemitto sino. Acsi ad causa c
 7. category: Tag or category that relates the content.  Can have multiple categories.
 8. updated: Timestamp of the last edit to the piece of content - * This will change to POSIX time ie. 1432419028
 9. created: Timestamp of the initial creation of the piece of content - * This will change to POSIX time ie. 1432419028
+
+
+## v.02 -
