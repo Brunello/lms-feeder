@@ -110,15 +110,29 @@ URL: N/A
 URL: N/A
 
 ```
-<item><id>628</id><uuid>de254bdb-42dd-49a1-83c5-bd5bd490ab00</uuid><type>article</type><created>1432057181</created><changed>1432064560</changed><title>Laoreet Saepius</title><dek>Consequat interdico jus. Adipiscing enim fere ludus populus quae qui. Antehabeo brevitas esse magna neo patria quibus virtus vulpes. Aptent duis facilisis gilvus letalis patria quae sudo turpis. Aliquam antehabeo augue exerci illum jumentum olim plaga pop</dek><body>Abdo antehabeo autem gravis nulla pecus plaga premo saluto vindico. Ad feugiat probo suscipit validus velit vero. Augue esse facilisi jumentum natu veniam. At eros esca genitus meus nulla tamen ulciscor verto.
+<item>
+	<id>628</id>
+	<uuid>de254bdb-42dd-49a1-83c5-bd5bd490ab00</uuid>
+	<type>article</type>
+	<created>1432057181</created>
+	<changed>1432064560</changed>
+	<title>Laoreet Saepius</title>
+	<dek>Consequat interdico jus. Adipiscing enim fere ludus populus quae qui. Antehabeo brevitas esse magna neo patria quibus virtus vulpes. Aptent duis facilisis gilvus letalis patria quae sudo turpis. Aliquam antehabeo augue exerci illum jumentum olim plaga pop</dek>
+	<body>Abdo antehabeo autem gravis nulla pecus plaga premo saluto vindico. Ad feugiat probo suscipit validus velit vero. Augue esse facilisi jumentum natu veniam. At eros esca genitus meus nulla tamen ulciscor verto.
 
-Ad dolus jumentum sed valde ymo. Cogo laoreet nulla persto praesent refoveo. Facilisi paulatim quidne suscipit vel. Macto quis si. Adipiscing cogo commodo facilisi humo luptatum molior refoveo suscipere. Immitto lenis letalis. Abigo blandit dignissim iustum meus utrum.
+	Ad dolus jumentum sed valde ymo. Cogo laoreet nulla persto praesent refoveo. Facilisi paulatim quidne suscipit vel. Macto quis si. Adipiscing cogo commodo facilisi humo luptatum molior refoveo suscipere. Immitto lenis letalis. Abigo blandit dignissim iustum meus utrum.
 
-Antehabeo autem camur dignissim metuo quidne valetudo. Abdo accumsan aptent enim genitus oppeto scisco sed tincidunt. Antehabeo at defui neo nobis nutus suscipit tincidunt ut. Nisl qui vereor. Hos occuro quis sagaciter. Aptent eu gilvus importunus patria quadrum quae vero. Abbas antehabeo pala rusticus similis velit. Dignissim enim jugis quibus ratis rusticus valde.
+	Antehabeo autem camur dignissim metuo quidne valetudo. Abdo accumsan aptent enim genitus oppeto scisco sed tincidunt. Antehabeo at defui neo nobis nutus suscipit tincidunt ut. Nisl qui vereor. Hos occuro quis sagaciter. Aptent eu gilvus importunus patria quadrum quae vero. Abbas antehabeo pala rusticus similis velit. Dignissim enim jugis quibus ratis rusticus valde.
 
-Appellatio importunus minim nunc nutus olim paratus suscipere vindico. Abdo importunus jus modo natu paulatim quae. Abluo exerci facilisi jumentum obruo quibus sino vereor vicis. Aliquip antehabeo facilisi ibidem incassum obruo sagaciter. Augue enim fere.
+	Appellatio importunus minim nunc nutus olim paratus suscipere vindico. Abdo importunus jus modo natu paulatim quae. Abluo exerci facilisi jumentum obruo quibus sino vereor vicis. Aliquip antehabeo facilisi ibidem incassum obruo sagaciter. Augue enim fere.
 
-</body><category><article_category>Fitness</article_category><condition>Asthma</condition><risk_level>High</risk_level></category></item>
+	</body>
+	<category>
+		<article_category>Fitness</article_category>
+		<condition>Asthma</condition>
+		<risk_level>High</risk_level>
+	</category>
+</item>
 ```
 
 ### Fields
@@ -135,10 +149,10 @@ category  | Object | Tag or category that relates the content.  Can have multipl
 updated  | String | POSIX time
 created  | String | POSIX time
 
-## categories
+### Content Type 
 
-Type | Categories
+Content Type | Field | Key
 -------------|--------------
-article  | article_category, condition, risk_level
+article | category | article_category, condition, risk_level
 
 
