@@ -131,9 +131,14 @@ type  | String | Content Type
 title  | String | Title of the piece of content
 dek  | String | Short brief or teaser for the piece of content
 body  | String/HTML | Body field of piece of content - HTML
-category  | Object | Tag or category that relates the content.  Can have multiple categories.
-	article | type | article_category, condition, risk_level
+category  | Object | Tag or category that relates the content.  Can have multiple categories - see table below.
 updated  | String | POSIX time
 created  | String | POSIX time
+
+## categories
+
+Type | Categories
+-------------|--------------
+article  | article_category, condition, risk_level
 
 
