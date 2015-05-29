@@ -138,7 +138,7 @@ URL: N/A
 ### Fields
 
 Fields  | Type | Description
--------------|---| -------------
+-------------|---|-------------
 id  | int | Unique id of the piece of content - URL /node/<id>
 uuid  | String | Universally Unique ID
 type  | String | Content Type
@@ -152,7 +152,7 @@ created  | String | POSIX time
 ### Content Type 
 
 Content Type | Field | Key
--------------|--------------
+-------------|-------|------
 article | category | article_category, condition, risk_level
 
 
