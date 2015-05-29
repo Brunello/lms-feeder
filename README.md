@@ -68,7 +68,7 @@ URL: http://feed-demo.linkwellhealth.com/rest/views/site_feeds.xml
 
 Fields  | Type | Description
 -------------|---| -------------
-id  | int | Unique id of the piece of content
+id  | int | Unique id of the piece of content - URL /node/<id>
 uuid  | String | Universally Unique ID
 type  | String | Content Type
 title  | String| Title of the piece of content
@@ -81,4 +81,59 @@ created  | String| Timestamp of the initial creation of the piece of content*
 * This will change to POSIX time ie. 1432419028
 
 
-## v.02 -
+## v.02 - 5-29-2015
+
+## JSON:
+
+URL: N/A
+
+```
+  {  
+      "id":"628",
+      "uuid":"de254bdb-42dd-49a1-83c5-bd5bd490ab00",
+      "type":"article",
+      "created":"1432057181",
+      "changed":"1432064560",
+      "title":"Laoreet Saepius",
+      "dek":"Consequat interdico jus. Adipiscing enim fere ludus populus quae qui. Antehabeo brevitas esse magna neo patria quibus virtus vulpes. Aptent duis facilisis gilvus letalis patria quae sudo turpis. Aliquam antehabeo augue exerci illum jumentum olim plaga pop",
+      "body":"Abdo antehabeo autem gravis nulla pecus plaga premo saluto vindico. Ad feugiat probo suscipit validus velit vero. Augue esse facilisi jumentum natu veniam. At eros esca genitus meus nulla tamen ulciscor verto.\n\nAd dolus jumentum sed valde ymo. Cogo laoreet nulla persto praesent refoveo. Facilisi paulatim quidne suscipit vel. Macto quis si. Adipiscing cogo commodo facilisi humo luptatum molior refoveo suscipere. Immitto lenis letalis. Abigo blandit dignissim iustum meus utrum.\n\nAntehabeo autem camur dignissim metuo quidne valetudo. Abdo accumsan aptent enim genitus oppeto scisco sed tincidunt. Antehabeo at defui neo nobis nutus suscipit tincidunt ut. Nisl qui vereor. Hos occuro quis sagaciter. Aptent eu gilvus importunus patria quadrum quae vero. Abbas antehabeo pala rusticus similis velit. Dignissim enim jugis quibus ratis rusticus valde.\n\nAppellatio importunus minim nunc nutus olim paratus suscipere vindico. Abdo importunus jus modo natu paulatim quae. Abluo exerci facilisi jumentum obruo quibus sino vereor vicis. Aliquip antehabeo facilisi ibidem incassum obruo sagaciter. Augue enim fere.\n\n",
+      "category":{  
+         "article_category":"Fitness",
+         "condition":"Asthma",
+         "risk_level":"High"
+      }
+  }
+```
+
+###XML:
+
+URL: N/A
+
+```
+<item><id>628</id><uuid>de254bdb-42dd-49a1-83c5-bd5bd490ab00</uuid><type>article</type><created>1432057181</created><changed>1432064560</changed><title>Laoreet Saepius</title><dek>Consequat interdico jus. Adipiscing enim fere ludus populus quae qui. Antehabeo brevitas esse magna neo patria quibus virtus vulpes. Aptent duis facilisis gilvus letalis patria quae sudo turpis. Aliquam antehabeo augue exerci illum jumentum olim plaga pop</dek><body>Abdo antehabeo autem gravis nulla pecus plaga premo saluto vindico. Ad feugiat probo suscipit validus velit vero. Augue esse facilisi jumentum natu veniam. At eros esca genitus meus nulla tamen ulciscor verto.
+
+Ad dolus jumentum sed valde ymo. Cogo laoreet nulla persto praesent refoveo. Facilisi paulatim quidne suscipit vel. Macto quis si. Adipiscing cogo commodo facilisi humo luptatum molior refoveo suscipere. Immitto lenis letalis. Abigo blandit dignissim iustum meus utrum.
+
+Antehabeo autem camur dignissim metuo quidne valetudo. Abdo accumsan aptent enim genitus oppeto scisco sed tincidunt. Antehabeo at defui neo nobis nutus suscipit tincidunt ut. Nisl qui vereor. Hos occuro quis sagaciter. Aptent eu gilvus importunus patria quadrum quae vero. Abbas antehabeo pala rusticus similis velit. Dignissim enim jugis quibus ratis rusticus valde.
+
+Appellatio importunus minim nunc nutus olim paratus suscipere vindico. Abdo importunus jus modo natu paulatim quae. Abluo exerci facilisi jumentum obruo quibus sino vereor vicis. Aliquip antehabeo facilisi ibidem incassum obruo sagaciter. Augue enim fere.
+
+</body><category><article_category>Fitness</article_category><condition>Asthma</condition><risk_level>High</risk_level></category></item>
+```
+
+### Fields
+
+Fields  | Type | Description
+-------------|---| -------------
+id  | int | Unique id of the piece of content - URL /node/<id>
+uuid  | String | Universally Unique ID
+type  | String | Content Type
+title  | String | Title of the piece of content
+dek  | String | Short brief or teaser for the piece of content
+body  | String/HTML | Body field of piece of content - HTML
+category  | Object | Tag or category that relates the content.  Can have multiple categories.
+	article | type | article_category, condition, risk_level
+updated  | String | POSIX time
+created  | String | POSIX time
+
+
