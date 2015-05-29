@@ -4,7 +4,7 @@
 
 ###JSON: 
 
-URL: http://feed-demo.linkwellhealth.com/rest/views/site_feeds.json
+URL: /rest/views/site_feeds.json
 
 ```
    {  
@@ -35,7 +35,7 @@ suscipit valetudo. Caecus genitus magna paulatim praemitto sino. Acsi ad causa c
 
 ###XML:
 
-URL: http://feed-demo.linkwellhealth.com/rest/views/site_feeds.xml
+URL: /rest/views/site_feeds.xml
 
 ```
 <item>
@@ -85,7 +85,9 @@ created  | String| Timestamp of the initial creation of the piece of content*
 
 ## JSON:
 
-URL: N/A
+URL format: <domain>/api/<version>/service/<feed_uuid>.<format>
+
+URL: /api/1/service/83d87723-760b-4808-84eb-4e6c37ca230e.json
 
 ```
   {  
@@ -107,7 +109,7 @@ URL: N/A
 
 ###XML:
 
-URL: N/A
+URL: /api/1/service/83d87723-760b-4808-84eb-4e6c37ca230e.xml
 
 ```
 <item>
@@ -151,8 +153,8 @@ created  | String | POSIX time
 
 ### Content Type 
 
-Content Type | Field | Key
--------------|-------|------
+Type | Field | Key
+-----|-------|------
 article | category | article_category, condition, risk_level
 
 
