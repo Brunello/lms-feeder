@@ -92,6 +92,7 @@ URL: /api/1/service/83d87723-760b-4808-84eb-4e6c37ca230e.json
 ```
   {  
       "id":"628",
+      "lid":"2342",
       "uuid":"de254bdb-42dd-49a1-83c5-bd5bd490ab00",
       "type":"article",
       "created":"1432057181",
@@ -114,6 +115,7 @@ URL: /api/1/service/83d87723-760b-4808-84eb-4e6c37ca230e.xml
 ```
 <item>
 	<id>628</id>
+	<lid>2342</lid>
 	<uuid>de254bdb-42dd-49a1-83c5-bd5bd490ab00</uuid>
 	<type>article</type>
 	<created>1432057181</created>
@@ -142,6 +144,7 @@ URL: /api/1/service/83d87723-760b-4808-84eb-4e6c37ca230e.xml
 Fields  | Type | Description
 -------------|---|-------------
 id  | int | Unique id of the piece of content - URL /node/<id>
+lid | int | Unique id of the piece of content from legecy site - for linking purposes
 uuid  | String | Universally Unique ID
 type  | String | Content Type
 title  | String | Title of the piece of content
